@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Monsterrat";
+    src: url(/fonts/Montserrat-Regular.ttf);
+}
+
+
+body{
+    background-color: black;
+}
+.nav{
+    background-color: white;
+    position :relative ;
+    left:-8px;
+    top:-8px;
+    height: 45px;
+    width: 1536px;
+}
+.menu{
+    float:left;
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px;
+    color: black;
+    font-family: Monsterrat;
+    font-weight: bolder;
+}
+
+.current{
+    float:left;
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px;
+    color: black;
+    font-weight: bolder;
+    font-family: Monsterrat;
+    text-decoration: underline;
+    text-underline-offset: 9px;
+    text-decoration-color: #eeb113;
+    text-decoration-thickness: 5px;
+}
+
+.menu:hover{
+    color: purple;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-underline-offset: 9px;
+    text-decoration-thickness: 5px;
+}
+
+.dummy{
+    float:left;
+    width: 50px;
+    height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px;
+    color: white;
+}
+
+.dummy2{
+    float:none;
+    width: 50px;
+    height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px;
+    color: white;
+}
+.header{
+    width:1500px;
+    background-color: #2b3551;
+    margin:10px;
+    height:30px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 30px;
+    font-family: Monsterrat;
+    font-weight: bolder;
+    color:white;
+
+}
+
+.servimg{
+    margin: 10px;
+}
+.servtext{
+    width: 486px;
+    background-color: white;
+    height: 40px;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 40px;
+    font-family: Monsterrat;
+    font-weight: bolder;
+}
+
+.serv{
+    float:left;
+}
+
+
+

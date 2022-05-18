@@ -1,0 +1,242 @@
+@font-face {
+    font-family: "Monsterrat";
+    src: url(/fonts/Montserrat-Regular.ttf);
+}
+
+
+body{
+    background-color: black;
+}
+.nav{
+    background-color: #2b3351;
+    position :relative ;
+    left:-8px;
+    top:-8px;
+    height: 45px;
+    width: 1536px;
+}
+.menu{
+    float:left;
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px;
+    color: white;
+    font-family: Monsterrat;
+}
+
+.current{
+    float:left;
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px;
+    color: white;
+    font-family: Monsterrat;
+    text-decoration: underline;
+    text-underline-offset: 9px;
+    text-decoration-color: #0032fc;
+    text-decoration-thickness: 5px;
+}
+
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #242f3f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+  }
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+  }
+  
+  @keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+  }
+  
+  @keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+  }
+
+
+.menu:hover{
+    color: purple;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-underline-offset: 9px;
+    text-decoration-thickness: 5px;
+}
+
+.dummy{
+    float:left;
+    width: 50px;
+    height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px;
+    color: white;
+}
+
+.event{
+    color:white;
+    background-color: #204dec;
+    width: 900px;
+    height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Monsterrat;
+    line-height: 45px;
+    font-weight: bold;
+    
+}
+
+.shortevent{
+    background-color: #1c1950;
+    width: 580px;
+    float: right;
+    margin-right: 10px;
+    height:60px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 60px ;
+    margin: 20px;
+}
+.leftdiv{
+    float:left;
+    cursor: pointer;
+}
+.d2{
+    background-color: bl;
+}
+.seimg{
+    display:block;
+    float:left;
+}
+.setext{
+    vertical-align: middle;
+    text-align: center;
+    width:490px;
+    float:right;
+    height:60px;
+    color:white;
+    background-color: #1c1950;
+    font-family: Monsterrat;
+    cursor: pointer;
+
+}
+.upevent{
+    background-color: white;
+    width: 580px;
+    float: right;
+    margin-right: 10px;
+    height:230px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 60px ;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.notcureventno{
+    background-color: white;
+    color:black;
+    width:50px;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 50px;
+    overflow: hidden;
+    margin-top: 20px;
+    font-family: Monsterrat;
+    font-size: x-large;
+    float:left;
+    margin-right: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.cureventno{
+    background-color: #204dec;
+    color:white;
+    width:50px;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 50px;
+    overflow: hidden;
+    margin-top: 20px;
+    font-family: Monsterrat;
+    font-size: x-large;
+    float:left;
+    margin-right: 10px;
+    font-family: bold;
+    margin-top: 15px;
+}
+.referal{
+    background-color: white;
+    color:black;
+    width:720px;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 50px;
+    overflow: hidden;
+    margin-top: 20px;
+    font-family: Monsterrat;
+    font-size: larger;
+    float:left;
+    margin-right: 10px;
+    font-weight: bold;
+    margin-top: 14.1px;
+}
+
+
+.nocontainer{
+    margin-top: 30px ;
+    
+}
+.uptext{
+
+    background-color: #204dec;
+    color: white;
+    width: 580px;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 50px;
+    overflow: hidden;
+    margin-top: 20px;
+    font-family: Monsterrat;
+    font-size: larger;
+    float:left;
+    margin-right: 10px;
+    font-weight: bold;
+    margin-top: 14.1px;
+    margin-left:10px;
+}

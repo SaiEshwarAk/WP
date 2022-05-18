@@ -1,0 +1,89 @@
+{
+"content":{
+            "mainEvent" : [
+                                {
+                                    "name" : "Porcelain",
+                                    "game" : "League of Legends",
+                                    "company" : "Riot Games",
+                                    "start" : "01 Apr 2022",
+                                    "end" : "31 Apr 2022",
+                                    "status" : "Running",
+                                    "imagePath" : "../images/Porlol.webp",
+                                    "article" : "notWritten",
+                                    "link" : "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/4415086433427-League-of-Legends-Lunar-Revel-2022"
+                                },
+                                {
+                                    "name" : "Lunar Bjjjjjjeast",
+                                    "game" : "League of Legkkkkkkends",
+                                    "company" : "Riot Games",
+                                    "start" : "01 Mar 2022",
+                                    "end" : "31 Mar 2022",
+                                    "status" : "Ended",
+                                    "imagePath" : "../images/lunar2.webp   ",
+                                    "article" : "notWritten",
+                                    "link" : "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/1500001988662-League-of-Legends-Lunar-Beast-2021"
+                                },
+                                {
+                                    "name" : "Prestige Coven",
+                                    "game" : "League of Legends",
+                                    "comapny" : "Riot Games",
+                                    "start" : "01 Feb 2022",
+                                    "end" : "31 Feb 2022",
+                                    "status" : "Ended",
+                                    "imagePath" : "../images/coveneve.gif",
+                                    "article" : "notWritten",
+                                    "link" : "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/4403569396371-League-of-Legends-Coven-2021"
+                                }
+
+
+
+                        ],
+            "shortEvent":{
+                            "name": "Odyssey",
+                            "game" : "League of Legends",
+                            "company" : "Riot Games",
+                            "status" : "Upcoming",
+                            "imagePath" : "../images/Odyssey.gif"
+                         },
+
+            "news":[
+                        {
+                          "title" : "Patch Notes 12.3",
+                          "game" :   "League of Legends",
+                          "company" : "Riot Games",
+                          "logoPath" : "../images/lol icon.jpg",
+                          "article" : "notWritten",
+                          "link" : "https://www.leagueoflegends.com/en-pl/news/game-updates/patch-12-3-notes/"
+                        },
+
+                        {
+                            "title" : "New Agent: Neon",
+                            "game" :   "Valorant",
+                            "company" : "Riot Games",
+                            "logoPath" : "../images/val icon.png",
+                            "article" : "notWritten",
+                            "link" : "https://playvalorant.com/en-gb/news/game-updates/valorant-patch-notes-4-0/" 
+                        },
+                        {
+                            "title" : "Double up available!",
+                            "game" :   "Teamfight Tactics",
+                            "company" : "Riot Games",
+                            "logoPath" : "../images/tft logo.png",
+                            "article" : "notWritten",
+                            "link" : "https://www.leagueoflegends.com/en-us/news/game-updates/team-up-for-double-up/" 
+                        }                        
+                        
+
+
+
+
+
+                   ]
+
+
+
+        }
+
+
+    
+}

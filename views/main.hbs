@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VCA GAMES</title>
+    <link href="../css/main.css" type="text/css" rel="stylesheet" />
+
+    
+
+    <script src="../scripts/main.js"> </script>
+
+
+
+</head>
+<body>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <div class="nav">
+        <div class="current">Main</div> <div class="dummy"></div>
+        <div class="menu"><a href="/news"style="text-decoration:none;color:white;">News</a></div> <div class="dummy"></div>
+        <div class="menu"><a href="/watch"style="text-decoration:none;color:white;">Watch</a></div> <div class="dummy"></div>
+        <div class="menu"><a href="/games"style="text-decoration:none;color:white;">Games</a></div>
+        <div class="dummy"></div><div class="dummy"></div><div class="dummy"></div><div class="dummy"></div><div class="dummy"></div><div class="dummy"></div><div class="dummy"></div><div class="dummy"></div><div class="dummy"></div><div class="dummy"></div><div class="dummy"></div><div class="dummy"></div><div class="dummy"></div><div class="dummy"></div><div class="dummy"></div><div class="dummy"></div><div class="dummy"></div>
+        <div class="menu"><a href="/" style="text-decoration: none; color: white;">Home</a></div>
+
+    </div> 
+    <div>
+        <div class ="leftdiv">
+            <div> <img id="currEventImg" onclick="redirect('event', cureventno);" width="900px" height="500px ">
+                <div id="currEvent" onclick="redirect('event', cureventno);" class="event"></div>  
+            </div>
+            
+        </div> 
+        <div >
+            <div class ="shortevent"><img id="news1img" width="60px" onclick="redirect('news', 1);" class="seimg"><div id="news1" onclick="redirect('news', 1);" class="setext"></div></div>
+            <div class ="shortevent"><img id="news2img"  width="60px" onclick="redirect('news', 2);" class="seimg"><div id="news2" onclick="redirect('news', 1);" class="setext"></div></div>
+            <div class ="shortevent"><img id="news3img" width="60px" onclick="redirect('news', 3);" class="seimg"><div id="news3" onclick="redirect('news', 1);" class="setext"></div></div>
+            <div  class ="upevent"><img id="upevent" width="580px" height="230px"></div>
+        </div>
+        <div>
+            <div id="event1" class="cureventno" onclick="changeEvent(1)">1</div>
+            <div id="event2" class="notcureventno" onclick="changeEvent(2)">2</div>
+            <div id="event3" class="notcureventno" onclick="changeEvent(3)">3</div>
+            <div class="referal"><marquee behavior="slide" loop="9999" direction="left"><a style="text-decoration: None;color:#2b3351" href="news">Read more on News</a> &nbsp &nbsp | &nbsp &nbsp<a style="text-decoration: None;color:#2b3351" href="watch">Watch DWG vs EDG Live</a></marquee></div>
+            <div id="upcoming" class="uptext"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+
